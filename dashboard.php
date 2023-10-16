@@ -12,6 +12,7 @@ require('model/functions.fn.php');
 	exit();
 }
 
+$db = new PDO('mysql:host=localhost;dbname=IIM_GIT', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 $musics = listMusics($db);
 
 include 'view/_header.php';
