@@ -1,8 +1,10 @@
 # IIM_A2_GIT
 
+# GROUPE : Matteo COURQUIN & Elyes VOISIN
+
 # ISSUE 1
 
-Login
+Login -> Elyes VOISIN
 ------
 * Permettre aux utilisateurs de se connecter sur le site. À réaliser sur une nouvelle branche : login.
 * Dans le fichier view/login.php :
@@ -22,7 +24,7 @@ Login
 
 
 # ISSUE 2
-Inscription
+Inscription -> Matteo COURQUIN
 ------
 * Permettre aux utilisateurs de créer un compte sur le site. À réaliser sur une nouvelle branche : register.
 * Étapes
