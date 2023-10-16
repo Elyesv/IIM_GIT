@@ -7,9 +7,9 @@ require('model/functions.fn.php');
 	Dashboard
 ===============================*/
 
- if(!isset($_SESSION) OR empty($_SESSION)){
-	header('Location: login.php');
-	exit();
+if (!isset($_SESSION) or empty($_SESSION)) {
+  header('Location: login.php');
+  exit();
 }
 
 $db = new PDO('mysql:host=localhost;dbname=IIM_GIT', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
